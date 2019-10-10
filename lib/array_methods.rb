@@ -29,4 +29,5 @@ def find_min_value(array)
     if array[counter] <= min_value
       min_value = array[counter]
     end
+    counter -= 1
 end

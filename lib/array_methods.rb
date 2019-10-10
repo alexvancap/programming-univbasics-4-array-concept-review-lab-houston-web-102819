@@ -34,4 +34,4 @@ def find_min_value(array)
   return min_value
 end
 
-find_min_value([1, 6, 4, -1, 7])
+puts find_min_value([1, 6, 4, -1, 7])

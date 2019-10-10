@@ -23,13 +23,16 @@ def find_max_value(array)
 end
 
 def find_min_value(array)
-  min_value = array[0]
+  min_value = 0
+  counter = 0
 
-  array.length.times {|index|
-    if min_value > array[index]
-      min_value = array[index]
-    elsif (index
-  }
+  while array[counter] do
+    if array[counter] > max_value
+      max_value = array[counter]
+    end
+    counter += 1
+  end
+  return min_value
 end
 
 puts find_min_value([5, 6, 4, -1, 7])

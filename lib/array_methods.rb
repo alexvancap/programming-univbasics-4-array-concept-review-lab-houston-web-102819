@@ -24,14 +24,10 @@ end
 
 def find_min_value(array)
   min_value = array[0]
-
-  while array[counter] do
-    if array[counter] < min_value
-      min_value = array[counter]
-    end
-    counter -= 1
-  end
-  return min_value
+  min_value
+  array.length.times {|index|
+    
+  }
 end
 
 puts find_min_value([5, 6, 4, -1, 7])

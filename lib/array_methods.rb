@@ -30,6 +30,7 @@ def find_min_value(array)
       min_value = array[index]
     end
   }
+    return array[index]
 end
 
 puts find_min_value([5, 6, 4, -1, 7])

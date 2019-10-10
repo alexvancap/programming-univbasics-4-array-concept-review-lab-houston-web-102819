@@ -25,10 +25,10 @@ end
 def find_min_value(array)
   min_value = array[0]
 
-  array.length.times {|index|
+  array.length.times +1 {|index|
     if min_value > array[index]
       min_value = array[index]
-    end
+    elsif (index 
   }
 end
 

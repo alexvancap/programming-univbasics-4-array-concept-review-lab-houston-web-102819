@@ -33,4 +33,4 @@ def find_min_value(array)
   return min_value
 end
 
-puts find_min_value([10, 6, 4, 3])
+puts find_min_value([10, 6, -104, 3])

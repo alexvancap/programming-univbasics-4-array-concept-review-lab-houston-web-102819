@@ -26,7 +26,7 @@ def find_min_value(array)
   min_value = array[0]
   min_value
   array.length.times {|index|
-    
+
   }
 end
 
